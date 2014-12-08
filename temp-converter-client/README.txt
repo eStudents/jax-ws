@@ -1,5 +1,5 @@
 # About temp-converter-client:
-This is an jax-ws client for exsisting .Net web service.
+This is a jax-ws client for exsisting .Net web service.
 URL: http://www.w3schools.com/webservices/tempconvert.asmx
 
 # Prerequisite:
