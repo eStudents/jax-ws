@@ -9,6 +9,7 @@
 
 	<build>
 		<plugins>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -18,11 +19,11 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<mainClass>est.jaxws.temp.client.TempConverterClient</mainClass>
-							<classpathPrefix>dependency-jars/</classpathPrefix>
 						</manifest>
 					</archive>
 				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
 </project>
