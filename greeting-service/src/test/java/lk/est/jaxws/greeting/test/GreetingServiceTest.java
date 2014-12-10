@@ -17,12 +17,12 @@ public class GreetingServiceTest {
 
 	private final String name = "Rangalal";
 
-	private IGreetingService helloWorldService;
+	private IGreetingService iGreetingService;
 	
 	@Test
 	public void testHelloWorldDirectly() {
-		helloWorldService = new Greeting();
-		String result = helloWorldService.getGreetingHellowMessage(name);
+		iGreetingService = new Greeting();
+		String result = iGreetingService.getGreetingHellowMessage(name);
 		Assert.assertEquals(IGretingsMessages.HELLO + name, result);
 	}
 

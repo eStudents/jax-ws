@@ -61,9 +61,9 @@ public class GreetingServiceEndpointTest {
         QName serviceName = new QName("http://impl.greeting.jaxws.est.lk/", "GreetingService");
 		
         Service service = Service.create(wsdlUrl, serviceName);
-        IGreetingService helloWorldService = service.getPort(IGreetingService.class);
+        IGreetingService iGreetingService = service.getPort(IGreetingService.class);
         
-		String result = helloWorldService.getGreetingHellowMessage(name);
+		String result = iGreetingService.getGreetingHellowMessage(name);
 		Assert.assertEquals(IGretingsMessages.HELLO + name, result);
 	}
 	
@@ -78,9 +78,9 @@ public class GreetingServiceEndpointTest {
         QName serviceName = new QName("http://impl.greeting.jaxws.est.lk/", "GreetingService");
 		
         Service service = Service.create(wsdlUrl, serviceName);
-        IGreetingService helloWorldService = service.getPort(IGreetingService.class);
+        IGreetingService iGreetingService = service.getPort(IGreetingService.class);
         
-		String result = helloWorldService.getGreetingWelcomeMessage(name);
+		String result = iGreetingService.getGreetingWelcomeMessage(name);
 		Assert.assertEquals(IGretingsMessages.WELCOME + name, result);
 	}
 
