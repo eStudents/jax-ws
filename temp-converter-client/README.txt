@@ -3,7 +3,7 @@ This is a jax-ws client for exsisting .Net web service.
 URL: http://www.w3schools.com/webservices/tempconvert.asmx
 
 # Prerequisite:
-You need to have JAVA and MAVEN installed properly with JAVA_HOME and M2_HOME environment variables.
+You need to have JAVA (1.7) and MAVEN (3.2.3) installed properly with JAVA_HOME and M2_HOME environment variables.
 
 # to create eclipse project execute:
 mvn eclipse:eclipse
