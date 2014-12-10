@@ -23,7 +23,7 @@ public class GreetingServiceTest {
 	public void testGreetingHellowMessage() {
 		iGreetingService = new Greeting();
 		String result = iGreetingService.getGreetingHellowMessage(name);
-		Assert.assertEquals(IGretingsMessages.HELLO + name, result);
+		Assert.assertEquals("Check for messsage 'Hello Rangalal'",IGretingsMessages.HELLO+ name, result);
 	}
 
 }
