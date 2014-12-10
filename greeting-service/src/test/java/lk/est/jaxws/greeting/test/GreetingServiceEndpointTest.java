@@ -18,7 +18,7 @@ import lk.est.jaxws.greeting.service.IGreetingService;
 import lk.est.test.util.RemoteUtil;
 
 /**
- * The class HelloWorldServiceEndpointTest for service test with publishing.
+ * The class GreetingServiceEndpointTest for service test with publishing.
  * @author rangalal.g
  *
  */

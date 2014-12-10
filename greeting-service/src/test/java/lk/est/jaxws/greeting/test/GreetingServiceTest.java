@@ -8,7 +8,7 @@ import lk.est.jaxws.greeting.impl.Greeting;
 import lk.est.jaxws.greeting.service.IGreetingService;
 
 /**
- * The class HelloWorldServiceTest for direct service test without publish it in a container.
+ * The class GreetingServiceTest for direct service test without publish it in a container.
  * @author rangalal.g
  *
  */
