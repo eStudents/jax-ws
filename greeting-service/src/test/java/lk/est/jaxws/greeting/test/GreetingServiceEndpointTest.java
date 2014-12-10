@@ -63,8 +63,8 @@ public class GreetingServiceEndpointTest {
         Service service = Service.create(wsdlUrl, serviceName);
         IGreetingService iGreetingService = service.getPort(IGreetingService.class);
         
-		String result = iGreetingService.getGreetingHellowMessage(name);
-		Assert.assertEquals(IGretingsMessages.HELLO + name, result);
+		String response = iGreetingService.getGreetingHellowMessage(name);
+		Assert.assertEquals(IGretingsMessages.HELLO + name, response);
 	}
 	
 	/**
@@ -80,8 +80,8 @@ public class GreetingServiceEndpointTest {
         Service service = Service.create(wsdlUrl, serviceName);
         IGreetingService iGreetingService = service.getPort(IGreetingService.class);
         
-		String result = iGreetingService.getGreetingWelcomeMessage(name);
-		Assert.assertEquals(IGretingsMessages.WELCOME + name, result);
+		String response = iGreetingService.getGreetingWelcomeMessage(name);
+		Assert.assertEquals(IGretingsMessages.WELCOME + name, response);
 	}
 
 }
