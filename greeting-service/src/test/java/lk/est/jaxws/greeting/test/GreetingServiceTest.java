@@ -20,7 +20,7 @@ public class GreetingServiceTest {
 	private IGreetingService iGreetingService;
 	
 	@Test
-	public void testHelloWorldDirectly() {
+	public void testGreetingHellowMessage() {
 		iGreetingService = new Greeting();
 		String result = iGreetingService.getGreetingHellowMessage(name);
 		Assert.assertEquals(IGretingsMessages.HELLO + name, result);
